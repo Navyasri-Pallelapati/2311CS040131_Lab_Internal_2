@@ -1,0 +1,10 @@
+Vector databases store high-dimensional embeddings and support efficient
+approximate nearest neighbor (ANN) search. FAISS, developed by Meta AI,
+supports exact search (IndexFlatIP, IndexFlatL2) as well as approximate
+indexes like IVF and HNSW for large-scale retrieval. Cosine similarity is
+commonly used when embeddings are normalized to unit length, because in
+that case the inner product between two vectors equals their cosine
+similarity. Chunk size and overlap are important hyperparameters: smaller
+chunks improve retrieval precision but may lose surrounding context, while
+larger chunks preserve context but can dilute the embedding with irrelevant
+information.

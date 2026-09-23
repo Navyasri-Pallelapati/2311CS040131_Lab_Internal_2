@@ -1,0 +1,14 @@
+# Core
+numpy
+scikit-learn
+
+# Better embeddings + vector search (optional but recommended)
+sentence-transformers
+faiss-cpu
+
+# LLM backends (install whichever you have a key for)
+openai
+anthropic
+
+# Web search for exp 7 (no API key needed)
+duckduckgo-search
